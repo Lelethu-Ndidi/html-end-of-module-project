@@ -2,6 +2,26 @@ body{
     background-repeat: no-repeat;
     background-size: 50%;
 }
+* {
+  font-family: Courier New;
+}
+#p1{
+  color: yellow;
+  float: right;
+}
+h1{
+  color:lime;
+  float: right;
+}
+h4{
+  color: red;
+  float: right;
+}
+.signUp{
+  border-radius: 9px;
+  float: right;
+  background-color: aqua;
+}
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -25,6 +45,6 @@ body{
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: grey;
     color: white;
   }
